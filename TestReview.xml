@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<review xmlns="http://plugins.intellij.net/revu" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://plugins.intellij.net/revu http://plugins.intellij.net/revu/ns/revu_1_0.xsd" name="TestReview" status="fixing" shared="true">
+  <history createdBy="jku" lastUpdatedBy="jku" createdOn="2013-11-13 15:49:05 +0100" lastUpdatedOn="2013-11-13 15:51:07 +0100"/>
+  <goal>Zum Testen des Plugin</goal>
+  <referential>
+    <priorities>
+      <priority order="0" name="minor"/>
+      <priority order="1" name="normal"/>
+      <priority order="2" name="major"/>
+      <priority order="3" name="critical"/>
+    </priorities>
+    <tags>
+      <tag name="correctness"/>
+      <tag name="cosmetic"/>
+      <tag name="documentation"/>
+      <tag name="duplication"/>
+      <tag name="maintenability"/>
+      <tag name="optimization"/>
+      <tag name="portability"/>
+      <tag name="question"/>
+      <tag name="standard"/>
+    </tags>
+    <users>
+      <user displayName="Torben Hansen" login="tha" roles="reviewer,author"/>
+      <user displayName="jku" login="jku" roles="admin,reviewer,author"/>
+    </users>
+  </referential>
+  <filescope pathPattern="file[*]:*//*||src:*..*"/>
+  <issues>
+    <issue filePath="test-android-application/src/de/joeran/test_revu_app/MyActivity.java" summary="onCreate" localRev="1384354348797" lineStart="10" lineEnd="10" hash="1237650784" priority="normal" status="to_resolve" assignees="tha,jku">
+      <history createdBy="jku" lastUpdatedBy="jku" createdOn="2013-11-13 15:52:28 +0100" lastUpdatedOn="2013-11-13 15:52:42 +0100"/>
+      <desc>Starte die App ordentlich</desc>
+    </issue>
+  </issues>
+</review>
